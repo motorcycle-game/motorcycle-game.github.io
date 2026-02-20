@@ -5,15 +5,40 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@types/three": "^0.183.0",
+    "autoprefixer": "^10.4.24",
     "next": "^16.1.6",
     "node": "^25.6.1",
     "npm": "^11.10.1",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.0",
     "three": "^0.183.0"
   },
   "dependencies": {
-    "@tailwindcss/cli": "^4.2.0"
-  }
+    "@tailwindcss/cli": "^4.2.0",
+    "@tailwindcss/postcss": "^4.2.0"
+  },
+  "name": "motorcycle-game.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/style.css -o public/build/tailwind.css && exit 1",
+    "watch:css": "postcss src/style.css -o public/build/tailwind.css --watch && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motorcycle-game/motorcycle-game.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/motorcycle-game/motorcycle-game.github.io/issues"
+  },
+  "homepage": "https://github.com/motorcycle-game/motorcycle-game.github.io#readme"
 }
