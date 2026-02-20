@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="crispEdges">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#7ec850"/>
+  <!-- Ground strip -->
+  <rect x="0" y="48" width="64" height="16" fill="#5a8a2a"/>
+  <!-- Shadow under bike -->
+  <rect x="12" y="46" width="40" height="4" fill="#3b5b1a"/>
+
+  <!-- Rear wheel (pixel blocks) -->
+  <rect x="10" y="36" width="6" height="6" fill="#111111"/>
+  <rect x="8" y="38" width="2" height="2" fill="#111111"/>
+  <rect x="16" y="38" width="2" height="2" fill="#111111"/>
+  <rect x="12" y="40" width="4" height="2" fill="#333333"/>
+
+  <!-- Front wheel -->
+  <rect x="44" y="36" width="6" height="6" fill="#111111"/>
+  <rect x="42" y="38" width="2" height="2" fill="#111111"/>
+  <rect x="50" y="38" width="2" height="2" fill="#111111"/>
+  <rect x="46" y="40" width="4" height="2" fill="#333333"/>
+
+  <!-- Frame and body -->
+  <rect x="18" y="30" width="28" height="4" fill="#2f2f2f"/>
+  <rect x="20" y="26" width="18" height="6" fill="#4a4a4a"/>
+  <rect x="22" y="22" width="10" height="4" fill="#6b6b6b"/>
+  <rect x="32" y="20" width="8" height="2" fill="#9b6b2f"/> <!-- handlebar stem -->
+
+  <!-- Seat -->
+  <rect x="26" y="24" width="8" height="2" fill="#8b4b2b"/>
+  <rect x="26" y="22" width="2" height="2" fill="#8b4b2b"/>
+
+  <!-- Headlight -->
+  <rect x="46" y="26" width="4" height="4" fill="#ffd86b"/>
+  <rect x="48" y="28" width="2" height="2" fill="#fff2c2"/>
+
+  <!-- Small pixel accents for blocky style -->
+  <rect x="19" y="28" width="2" height="2" fill="#1f1f1f"/>
+  <rect x="38" y="28" width="2" height="2" fill="#1f1f1f"/>
+  <rect x="30" y="18" width="2" height="2" fill="#9b6b2f"/>
+  <rect x="34" y="18" width="2" height="2" fill="#9b6b2f"/>
+
+  <!-- Optional tiny emblem to hint Minecraft style -->
+  <rect x="24" y="14" width="4" height="4" fill="#2b6fb3"/>
+  <rect x="26" y="16" width="2" height="2" fill="#7fc3ff"/>
+</svg>
